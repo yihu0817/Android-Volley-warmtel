@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huewu.pla.sample.test" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.huewu.pla.sample.test"
+        android:targetPackage="com.huewu.pla.sample.test" />
+
+    <application
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity android:name="com.huewu.pla.sample.SampleActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.huewu.pla.sample.PullToRefreshSampleActivity" />
+    </application>
+
+</manifest>

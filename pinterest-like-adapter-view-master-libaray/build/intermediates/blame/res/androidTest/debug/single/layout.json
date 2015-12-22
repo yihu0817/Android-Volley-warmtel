@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\Android-Volley-warmtel\\pinterest-like-adapter-view-master-libaray\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ptr_header.xml",
+        "source": "E:\\AndroidStudioProjects\\Android-Volley-warmtel\\pinterest-like-adapter-view-master-libaray\\build\\intermediates\\bundles\\debug\\res\\layout\\ptr_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Android-Volley-warmtel\\pinterest-like-adapter-view-master-libaray\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_sample.xml",
+        "source": "E:\\AndroidStudioProjects\\Android-Volley-warmtel\\pinterest-like-adapter-view-master-libaray\\build\\intermediates\\bundles\\debug\\res\\layout\\act_sample.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Android-Volley-warmtel\\pinterest-like-adapter-view-master-libaray\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_pull_to_refresh_sample.xml",
+        "source": "E:\\AndroidStudioProjects\\Android-Volley-warmtel\\pinterest-like-adapter-view-master-libaray\\build\\intermediates\\bundles\\debug\\res\\layout\\act_pull_to_refresh_sample.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Android-Volley-warmtel\\pinterest-like-adapter-view-master-libaray\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_sample.xml",
+        "source": "E:\\AndroidStudioProjects\\Android-Volley-warmtel\\pinterest-like-adapter-view-master-libaray\\build\\intermediates\\bundles\\debug\\res\\layout\\item_sample.xml"
+    }
+]

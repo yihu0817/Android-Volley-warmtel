@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/volley_imageRequest_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="imageRequest"></Button>
+
+        <ImageView
+            android:id="@+id/volley_imageRequest_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/volley_NetworkImageView_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NetworkImageView"></Button>
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/volley_ImageLoaderListener_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageLoaderListener" />
+
+        <ImageView
+            android:id="@+id/volley_ImageLoaderListener_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/volley_PostJosnRequest_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PostJosnRequest" />
+
+        <TextView
+            android:id="@+id/iv_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/volley_StringRequest_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StringRequest" />
+
+        <TextView
+            android:id="@+id/message_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/volley_fastJsonClassRequest_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fastJsonClassRequest" />
+
+        <TextView
+            android:id="@+id/volley_fastjsonclassRequeset_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</ScrollView>
